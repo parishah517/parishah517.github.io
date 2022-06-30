@@ -1,6 +1,7 @@
 <html>
    <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+       <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=1" />
        <!-- https://codemyui.com/polaroid-images-gallery-in-pure-css/ -->
        <link rel="stylesheet" href="styles.css">
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -10,20 +11,20 @@
    <head>
        <body>
            <!-- navigation bar -->
-           <nav>
-             <a class="left" href="#home">Home</a>
-             <a class="right"href="#projects">Projects</a>
-             <a class="right"href="#education">Education</a>
-             <a class="right"href="#about">About</a>
-           </nav>
            
-          
+                <div id="navbar">
+                    <a class="left" href="#home">Home</a>
+                    <a class="right"href="#projects">Projects</a>
+                    <a class="right"href="#education">Education</a>
+                    <a class="right"href="#about">About</a>
+                </div>
+             
            
            <div class = "page-content">
                <!-- home -->
                
                <div id = "home">
-                   <div class = "page-container row">
+                   <div class = "page-container">
                        <img class = "sketch "src="sketch.jpg" alt="sketch-img">
                        <div class = "page-container column">
                            <div class = "page-container row">
@@ -243,6 +244,9 @@
                                <div class="text">
                                    <p class = "description">Parsed through CSV file filled with data from Tobii Pro Fusion eye tracker to analyze cognitive load to improve future
                                    educational technology that will help students better learn programming concepts </p>
+                                   <a class = "text"href="urop.pdf"target="_blank" >
+                                      View Poster
+                                   </a>
                                    <p>Researcher Assistant</p>
                                    <p>Python</p>
                                </div>

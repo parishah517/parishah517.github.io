@@ -11,40 +11,55 @@ body{
   width: 100%;
   height: 100%;
   padding: 0;
+  left: 0%;
+  right: 0%;
   
 }
 
 /* navigation*/
-nav {
-  background-color: #333;
+
+#navbar {
+  
   left: 0%;
   right: 0%;
-  position: fixed;
+  position:fixed;
   z-index: 1;
+  width:100%;
+  background-color: #333;
+  height: 45px;
+  color: #f2f2f2;
 
 }
-nav a {
+#navbar a {
   color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
+  
+  
 }
 
-nav a.left {
+#navbar a.left {
   float: left;
 }
-nav a.right{
+#navbar a.right{
     float:right;
 }
 
-nav a:hover {
+#navbar a:hover {
     background-color:  #f6f7f1;
     color: #333;
 }
 
 .page-content{
     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
 }
 
 .page-container {
@@ -66,10 +81,11 @@ nav a:hover {
 #home{
     background:linear-gradient(18deg, #349fa4, #94bcbc, #f6f7f1);
     padding: 50px;
-    min-height:100vh;
-    min-width:100vh;
+    min-height:90vh;
+    width:100%;
     background-repeat:repeat;
     background-size: cover;
+    
     
     
     /*background: linear-gradient(18deg, #dc9779,#349fa4, #94bcbc, #f6f7f1);*/
@@ -78,8 +94,9 @@ nav a:hover {
 
 .sketch{
     width: 20%;
-    height: 20%;
+    height: 80%;
     margin-top: 10%;
+    
 }
 .home-title{
     width:100%;
@@ -137,7 +154,7 @@ i.arrow{
   background-color:#f6f7f1;
   padding: 50px;
   min-height:100vh;
-  min-width:100vh;
+  width:100%;
   background-repeat:repeat;
   background-size: cover;
 
@@ -145,8 +162,8 @@ i.arrow{
 
 #about img{
     
-    width: 500px;
-    height: 650px;
+    width: 425px;
+    height: 575px;
     border-radius: 12px;
     box-shadow: 12px 12px 1px #d3e5e7;
     margin: 50px;
@@ -162,13 +179,13 @@ i.arrow{
     background-color: #333;
     box-shadow: 12px 12px 1px #d3e5e7;
     width: 600px;
-    height: 500px;
+/*    height: 500px;*/
     border-radius: 12px;
     padding: 40px;
     margin:50px;
     font-family: 'Cutive Mono',monospace;
     line-height: 2 ;
-    overflow-y:auto;
+/*    overflow-y:auto;*/
     margin-top:150px;
 
 }
@@ -200,7 +217,7 @@ i.arrow{
   min-height:100vh;
   background-repeat:repeat;
   background-size: cover;
-  min-width:100vh;
+  width:100%;
 
 }
 
@@ -209,6 +226,7 @@ i.arrow{
     margin-top:50px;
     border-radius: 8px;
     border: 10px solid #333;
+    margin-bottom:20px;
     
 }
 
@@ -229,6 +247,8 @@ i.arrow{
     background-color: #333;
     height: 500px;
     width: 800px;
+    margin-left:10px;
+    margin-right:10px;
         
 }
 
@@ -239,7 +259,7 @@ i.arrow{
   min-height:100vh;
   background-repeat:repeat;
   background-size: cover;
-  min-width:100vh;
+  width:100%;
 
 }
 
@@ -335,7 +355,7 @@ p.description{
     background-size: cover;
     color:#333;
     font-size:18px;
-    min-width:100vh;
+    width:100%;
     line-height: 2 ;
     
 
@@ -349,5 +369,6 @@ p.description{
     text-align: center;
     color:#333;
 }
+
 
 
