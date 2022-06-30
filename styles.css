@@ -311,6 +311,18 @@ i.arrow{
   opacity: 0.95;
 }
 
+.text:hover {
+  opacity: 1;
+}
+
+.description:hover{
+  opacity:1;
+}
+
+.caption:hover{
+  opacity:1;
+}
+
 /*
 .overlay:hover {
     opacity: 1;
