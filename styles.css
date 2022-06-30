@@ -311,6 +311,10 @@ i.arrow{
   opacity: 0.95;
 }
 
+.proj-img:hover .overlay {
+  opacity: 0.95;
+}
+
 .text:hover {
   opacity: 1;
 }
