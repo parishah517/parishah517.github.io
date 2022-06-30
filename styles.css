@@ -314,6 +314,9 @@ i.arrow{
 .proj-img:hover .overlay {
   opacity: 0.95;
 }
+.image:hover .overlay {
+  opacity: 0.95;
+}
 
 .text:hover {
   opacity: 1;
