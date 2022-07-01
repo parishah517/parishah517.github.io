@@ -308,6 +308,7 @@ i.arrow{
 }
 
 .project-container:hover .overlay {
+  visibility: visible;
   opacity: 0.95;
 }
 
