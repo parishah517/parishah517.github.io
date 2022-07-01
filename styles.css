@@ -307,11 +307,6 @@ i.arrow{
   border-bottom-right-radius: 8px;
 }
 
-.project-container:hover .overlay {
-  visibility: visible;
-  opacity: 0.95;
-  cursor: pointer;
-}
 
 .container:hover .overlay {
   opacity: 0.95;
@@ -324,17 +319,6 @@ i.arrow{
   opacity: 0.95;
 }
 
-.text:hover {
-  opacity: 1;
-}
-
-.description:hover{
-  opacity:1;
-}
-
-.caption:hover{
-  opacity:1;
-}
 
 /*
 .overlay:hover {
