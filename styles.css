@@ -307,6 +307,10 @@ i.arrow{
   border-bottom-right-radius: 8px;
 }
 
+.project-container:hover .overlay {
+  opacity: 0.95;
+}
+
 .container:hover .overlay {
   opacity: 0.95;
 }
