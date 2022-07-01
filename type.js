@@ -59,9 +59,13 @@ typewriter
     .pauseFor(1000)
     .typeString('React JS')
     .deleteAll()
-    .deleteAll()
     .pauseFor(1000)
     .typeString('Django')
+    .deleteAll()
+    .pauseFor(1000)
+    .typeString('TypeScript')
+    .deleteAll()
+    .pauseFor(1000)
     .start()
 
 var t3 = document.getElementById('t3');
