@@ -310,6 +310,7 @@ i.arrow{
 .project-container:hover .overlay {
   visibility: visible;
   opacity: 0.95;
+  cursor: pointer;
 }
 
 .container:hover .overlay {
